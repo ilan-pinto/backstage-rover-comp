@@ -18,10 +18,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: ilan.davison
+  name: ilan.pinto
 spec:
   profile:
     # Intentional no displayName for testing
     email: ilpinto@redhat.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [cloud-native-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name:  ilona.shishov
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: ilonsa.shishov@redhat.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   memberOf: [cloud-native-team]
