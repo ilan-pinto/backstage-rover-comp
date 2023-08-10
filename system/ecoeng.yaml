@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: rover-bot
+  description: rover bot eco system
+spec:
+  owner: cloud-native-team
+  domain: bots

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all
+  description: all rover related resources
+spec:
+  targets:
+    - ./component/catalog-info.yaml
+    - ./group/cn-group.yaml
+    - ./system/ecoeng.yaml
+    - ./domain/bots.yaml
+    
+
+
