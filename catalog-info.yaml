@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rover-bot
+  description: roverbot services
+  links:
+    - title: openshift cluster
+      url: https://console-openshift-console.apps.ocp-dev01.lab.eng.tlv2.redhat.com/k8s/ns/rover-bot-gitops/core~v1~Pod
+    - title: gitlab
+      url: https://gitlab.cee.redhat.com/ilpinto/rover-bot 
+    - title: operation slack channel 
+      url: https://app.slack.com/client/T027F3GAJ/C04KTDWTEF9
+    - title: argocd:
+      url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
+spec:
+  type: website
+  lifecycle: production
+  owner: rover-bot-team
+  system: slack
