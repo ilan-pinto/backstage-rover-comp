@@ -13,7 +13,7 @@ metadata:
     - title: argocd
       url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
 spec:
-  type: website
+  type: library
   lifecycle: production
   owner: rover-bot-team
   system: slack
