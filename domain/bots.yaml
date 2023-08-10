@@ -3,4 +3,5 @@ kind: Domain
 metadata:
   name: bots
   description: red hat bots
+spec:
   owner: cloud-native-team
