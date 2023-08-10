@@ -10,7 +10,7 @@ metadata:
       url: https://gitlab.cee.redhat.com/ilpinto/rover-bot 
     - title: operation slack channel 
       url: https://app.slack.com/client/T027F3GAJ/C04KTDWTEF9
-    - title: argocd:
+    - title: argocd
       url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
 spec:
   type: website
