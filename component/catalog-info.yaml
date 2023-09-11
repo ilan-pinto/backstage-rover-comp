@@ -13,7 +13,7 @@ metadata:
     - title: argocd
       url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
 spec:
-  type: rover
+  type: website
   lifecycle: production
   owner: cloud-native-team
   system: bots
