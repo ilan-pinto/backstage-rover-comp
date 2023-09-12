@@ -13,8 +13,8 @@ metadata:
     - title: argocd
       url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
   annotations:
-      backstage.io/kubernetes-id: rover-bot
-      backstage.io/kubernetes-namespace: rover-bot
+      backstage.io/kubernetes-id: rover
+      backstage.io/kubernetes-namespace: rover
 spec:
   type: website
   lifecycle: production
