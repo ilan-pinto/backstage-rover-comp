@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-rover-comp
+  annotations:
+    github.com/project-slug: ilan-pinto/backstage-rover-comp
+spec:
+  type: other
+  lifecycle: unknown
+  owner: ilan
