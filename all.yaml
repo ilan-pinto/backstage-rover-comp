@@ -9,6 +9,7 @@ spec:
     - ./group/cn-group.yaml
     - ./system/ecoeng.yaml
     - ./domain/bots.yaml
+    - ./resources/gitlab.yaml
     
 
 

@@ -2,6 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: bots
-  description: red hat bots
+  description: red hat bots.
 spec:
   owner: cloud-native-team

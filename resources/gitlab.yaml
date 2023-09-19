@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: github
+  title: Rover bot gitlab repo
+  description: rover bot source gode
+  links:
+    - url: https://gitlab.cee.redhat.com/ilpinto/rover-bot
+      title: Gitlab Repository
+      icon: web
+spec:
+  type: repository
+  lifecycle: production
+  owner: cloud-native-team
+  system: bots

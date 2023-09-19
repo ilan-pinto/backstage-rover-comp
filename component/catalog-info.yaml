@@ -12,9 +12,14 @@ metadata:
       url: https://app.slack.com/client/T027F3GAJ/C04KTDWTEF9
     - title: argocd
       url: https://argocd-argocd.apps.ocp-dev01.lab.eng.tlv2.redhat.com
+    - title: quay
+      url: https://quay.io/user/ilan_pinto/
   annotations:
       backstage.io/kubernetes-id: rover
       backstage.io/kubernetes-namespace: rover
+      quay.io/repository-slug: ilan_pinto/rover_bot
+      gitlab.com/project-slug: janus-idp/backstage-showcase
+      argocd/app-name: rover
 spec:
   type: website
   lifecycle: production
